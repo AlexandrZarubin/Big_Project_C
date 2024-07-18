@@ -5,7 +5,8 @@ using namespace std;
 //#define FOR
 //#define BREAK
 //#define CONTINUE
-#define lesson
+//#define lesson
+#define ForContinue
 void main()
 {
 	setlocale(LC_ALL, "rus");
@@ -122,6 +123,30 @@ void main()
 	}
 	cout << "Перегрев процессора!" << endl;*/
 #endif // lesson
+
+#ifdef ForContinue
+	cout << "---Программа вывода всех нечетных чисел, их кол-во суммы от нуля до задоного числа!---" << endl;
+	int number = 0, count = 0, summa = 0;
+	cout << "Введите число: "; cin >> number;
+	//правильное использование
+	for (int i = 1; i < number; i++)
+	{
+		//if(3+i)%6==2continue; //можно пропускать отдельные итерацие цикла
+
+		if (i % 2 == 0)continue;//Пропускаем все четные значения счетчика i
+		cout << i << " ";//выводим нечетное значение счетчика i на экран
+		count++;//увеличиваем кол-во нечетных чисел
+		summa += i;//считаем сумма нечетных чисел //summa=summa+i
+	}
+	cout << "\nКол-во нечетных чисел равно: " << count << endl;
+	cout << "Сумма нечетных чисел: " << summa << endl;
+	//так можно, но не рукомендуется
+	cout << "Введите число: "; cin >> number;
+	int i = 0;
+	for (i = 1, count = 0, summa = 0; i <= number && count <= summa; cout << i << " ", count++, summa += i, i += 2) {}
+	cout << "\nКол-во нечетных чисел равно: " << count << endl;
+	cout << "Сумма нечетных чисел: " << summa << endl;
+#endif // ForContinue
 
 
 }
