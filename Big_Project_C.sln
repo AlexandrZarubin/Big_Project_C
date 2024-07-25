@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "045_Dynamic_Memory", "045_D
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "046_Pointer", "046_Pointer\046_Pointer.vcxproj", "{33941EC8-97AC-4E5A-823F-78EA9AA50C4E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "047_Arithmetic_Pointer", "047_Arithmetic_Pointer\047_Arithmetic_Pointer.vcxproj", "{B2E48248-67C0-453D-AB1D-C9287398744A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -331,6 +333,14 @@ Global
 		{33941EC8-97AC-4E5A-823F-78EA9AA50C4E}.Release|x64.Build.0 = Release|x64
 		{33941EC8-97AC-4E5A-823F-78EA9AA50C4E}.Release|x86.ActiveCfg = Release|Win32
 		{33941EC8-97AC-4E5A-823F-78EA9AA50C4E}.Release|x86.Build.0 = Release|Win32
+		{B2E48248-67C0-453D-AB1D-C9287398744A}.Debug|x64.ActiveCfg = Debug|x64
+		{B2E48248-67C0-453D-AB1D-C9287398744A}.Debug|x64.Build.0 = Debug|x64
+		{B2E48248-67C0-453D-AB1D-C9287398744A}.Debug|x86.ActiveCfg = Debug|Win32
+		{B2E48248-67C0-453D-AB1D-C9287398744A}.Debug|x86.Build.0 = Debug|Win32
+		{B2E48248-67C0-453D-AB1D-C9287398744A}.Release|x64.ActiveCfg = Release|x64
+		{B2E48248-67C0-453D-AB1D-C9287398744A}.Release|x64.Build.0 = Release|x64
+		{B2E48248-67C0-453D-AB1D-C9287398744A}.Release|x86.ActiveCfg = Release|Win32
+		{B2E48248-67C0-453D-AB1D-C9287398744A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
