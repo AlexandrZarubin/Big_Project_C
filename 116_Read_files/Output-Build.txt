@@ -1,0 +1,6 @@
+﻿Build started...
+1>------ Build started: Project: 118_Read_Write_fsream, Configuration: Debug x64 ------
+1>main.cpp
+1>118_Read_Write_fsream.vcxproj -> C:\YandexDisk\WorksSrudyV2\Git_project\Big_Project_C\x64\Debug\118_Read_Write_fsream.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 6:58 PM and took 01,191 seconds ==========
