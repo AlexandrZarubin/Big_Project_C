@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{70c912a9-aac8-4134-b8c4-bdaad820d1f0}</ProjectGuid>
-    <RootNamespace>My120trycatch</RootNamespace>
+    <ProjectGuid>{b67850fa-6ee4-4baf-a6ac-335cb783d497}</ProjectGuid>
+    <RootNamespace>My124Enum</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

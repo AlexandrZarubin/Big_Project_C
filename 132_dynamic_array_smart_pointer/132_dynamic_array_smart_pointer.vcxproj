@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{70c912a9-aac8-4134-b8c4-bdaad820d1f0}</ProjectGuid>
-    <RootNamespace>My120trycatch</RootNamespace>
+    <ProjectGuid>{3a57fb16-370b-450d-98fb-a088b29af726}</ProjectGuid>
+    <RootNamespace>My132dynamicarraysmartpointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
